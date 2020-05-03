@@ -1,0 +1,38 @@
+.heading{
+  text-align: center;
+}
+
+.mainArea{
+  text-align: center;
+}
+
+.lowattn{
+    color: red;
+}
+
+.highattn{
+    color: green;
+}
+
+h1{
+    font-size: 5vh;
+}
+
+h2{
+    font-size: 4vh;
+}
+label{
+    font-size: 4vh;
+}
+input{
+    width: 60%;
+    height: 5vh;
+    border-radius:3px;
+    font-size:2.5vh;
+}
+tr{
+    font-size:2vh;
+}
+th{
+    text-align:center;
+}

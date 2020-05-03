@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link rel="shortcut icon" type="image/x-icon" href="img\ISA logo white.png" />
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>ISA-VIT</title>
+      <meta name="description" content="">
+      <meta name="keywords" content="ISA, ISA-VIT, VIT, VIT Vellore, VIT Club, Best Club in VIT,Chapter in VIT, VIT Chapter, Best Chapter HTML,CSS,JavaScript">
+      <meta name="author" content="International Society of Automation VIT Student Section, Sukrit Bedi">
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+      <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+      <script type="text/javascript" src="js/jquery.isotope.js"></script>
+      <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+      <script type="text/javascript" src="js/contact_me.js"></script>
+      <script src="js/angular_file.js"></script>
+
+
+      <!-- ==========================Javascripts===================== -->
+      <script type="text/javascript" src="js/main.js"></script>
+
+      <script type="text/javascript">
+        function scroll_to_div(div_id)
+        {
+          $('html,body').animate(
+            {
+              scrollTop: $("#"+div_id).offset().top
+            },'slow');
+        }
+      </script>
+
+      <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+      <link rel="manifest" href="manifest.json">
+      <meta name="theme-color" content="#ffffff">
+      <!-- Bootstrap -->
+      <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+      <!-- ==============================Stylesheet==================== -->
+      <link rel="stylesheet" type="text/css"  href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+      <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+      <style type="text/css" >
+         .nav > li > a:hover, .nav > li > a:focus {
+             color:blue;
+             background-color: #EF92A5;
+             text-decoration: none;
+           }
+           hr{
+             background-color:#6495ED;
+           }
+      </style>
+    </head>
+    <body ng-app="myApp">
+      <!--====================Navigation======================-->
+      <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+      	    <img src="img\VIT NEW LOGO WHITE compresed.png" height="40px" width="115px">
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right" >
+              <li><a class="page_scroll" style="font-size:1.1em;" onclick = "scroll_to_div('about-section')">About</a></li>
+              <li><a class="page_scroll" style="font-size:1.1em;" onclick = "scroll_to_div('section1')">Departments</a></li>
+              <li><a class="page-scroll" style="font-size:1.1em;" onclick = "scroll_to_div('team-section')">Team</a></li>
+              <!---<li><a class="page_scroll" style="font-size:1.1em;" data-toggle="modal" data-target="#alumniForum1">Alumni Forum</a></li>-->
+              <li><a href="http://blog.isavit.club" class="page-scroll" style="font-size:1.1em;">Blog</a></li>
+              <li><a class="page-scroll" style="font-size:1.1em;" onclick = "scroll_to_div('social-section')">Contact Us</a></li>
+              <li><a href="http://spark.isavit.club" class="page-scroll" style="font-size:1.1em;">Spark'19</a></li>
+               <li><a href="../blog.isavit.club/htdocs/wp-content/plugins/crossword-compiler-puzzles/wp-crossword.php" class="page-scroll" style="font-size:1.1em;">crossword</a></li>
+
+              
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+
+      <!-- Header -->
+      <header class="text-center" name="home">
+        <div class="intro-text">
+          <img src="img/ISA logo white.png" height="200px" breadth="50%" style="margin-top:-100px;">
+          <h1>International Society of <span class="color">Automation</span></h1>
+          <p>Setting the Standards of Automation</p>
+          <div class="clearfix"></div>
+          <div style="text-align:center;font-size:1.4em;">
+            Enlightening Minds  | <span class="color">ISA-VIT</span> |  Ignite The Spark Within
+          </div>
+  </div>
+</header>
+
+<br>
+
+<div class="container"  >
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="" >
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" style="">
+
+      <div class="item active">
+        <img src="img/chotavivi.jpg" alt="Dr Vivekanandan" style="width:100%;height:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p style="color:white;">Dr. S Vivekanandan being honored as the best 'Student Mentor'</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/bigb.jpg" alt="Select School Makeathon" style="width:100%;height:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p style="color:white;">The winning way - SELECT Make-a-thon</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/grav1.jpg" alt="PACMAN" style="width:100%;height:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p style="color:white;">Our legacy event, PacMan at graVITas, VIT</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/photo2.jpg" alt="ISA" style="width:100%;height:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p style="color:white;">Cheers to the team!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/spark1.jpg" alt="spark" style="width:100%;height:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p style="color:white;">An interactive session at Spark'17</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/family.jpg" alt="ISA family" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p style="color:white;">The ISA family</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!-- About Section -->
+<div id="about-section">
+  <div class="container">
+    <div class="section-title">
+      <h2>About Us</h2>
+      <hr style="background-color:#6495ED;">
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h4 style="text-decoration-color:#6495ED">Who We Are?</h4>
+        <p>The International Society of Automation - VIT is a nonprofit student chapter that works under the International Society of Automation. We aim to set the standard for those who apply engineering and technology to improve the management, safety, and cybersecurity of modern automation and control systems used across industry and critical infrastructure.</p>
+      </div>
+      <div class="col-md-6">
+        <h4 style="text-decoration-color:#6495ED">What We Do?</h4>
+        <p>We at ISA-VIT host various workshops, speaker sessions, technitudes, industrial visits and the annual tech-fest SPARK for the budding engineers to improve and polish their skills and work on the common cause.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div ng-controller="departments">
+  <div ng-repeat="x in myObj">
+    <div id={{x.id}} style="text-align:justify;padding-top:{{x.padding}};">
+      <div class="container">
+        <div class="section-title center">
+          <h2 style="text-align:left;">{{x.Name}}</h2>
+          <hr style="background-color:#6495ED;">
+          <div class="col-md-3 col-sm-6 team">
+            <img src={{x.imgsrc}} height="175px">
+          </div>
+          <div class="col-md-9 col-sm-6 team" style = "text-align:'justify'">
+            <br><br><br>
+            <div>{{x.desc1}}</div><br>
+            <div>{{x.desc2}}</div><br>
+            <div>{{x.desc3}}</div><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="team-section">
+  <div class="container">
+    <div class="section-title">
+      <h2>The Executive Board</h2>
+      <hr style="background-color:#6495ED;">
+    </div>
+
+    <div id="row" align="center">
+        <div class="col-md-12 col-sm-6 team" align="center">
+        <div class="thumbnail">
+            <div class="random1">
+            <img src="img/vivo123.jpeg" alt="..." class="team-img" data-toggle="modal" data-target="#vivo">
+            </div>
+        <div class="middle123">
+            <div class="text">Dr. S Vivekanandan</div>
+        </div>
+          <div class="caption">
+            <h3>Dr. S Vivekanadan</h3>
+            <p>Faculty Coordinator</p>
+          </div>
+        </div>
+      </div><br>
+
+       <div class="col-md-6 col-sm-3 team">
+        <div class="thumbnail">
+            <div class="random1">
+            <img src="img/team/New/tejas.jpg" alt="..." class="team-img" data-toggle="modal" data-target="#tejas">
+            </div>
+            <div class="middle123">
+                <div class="text">Tejas</div>
+            </div>
+          <div class="caption">
+            <h3>Tejas</h3>
+            <p>Events and Documentation Head</p>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-6 col-sm-3 team">
+        <div class="thumbnail">
+            <div class="random1">
+            <img src="img/team/New/vedant.jpg" alt="..." class="team-img" data-toggle="modal" data-target="#vedant">
+            </div>
+        <div class="middle123">
+            <div class="text">Vedant Singh Rajput</div>
+        </div>
+          <div class="caption">
+            <h3>Vedant Singh Rajput</h3>
+            <p>Operations Lead</p>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-6 col-sm-3 team">
+        <div class="thumbnail">
+            <div class="random1">
+            <img src="img/team/New/Sharath.jpg" alt="..." class="team-img" data-toggle="modal" data-target="#sharat">
+            </div>
+        <div class="middle123">
+            <div class="text">Sharat Cherin Thomas</div>
+        </div>
+          <div class="caption">
+            <h3>Sharat Cherin Thomas</h3>
+            <p>Teachnical Lead</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-3 team">
+        <div class="thumbnail">
+            <div class="random1">
+            <img src="img/team/New/gautam.jpg" alt="..." class="team-img" data-toggle="modal" data-target="#gautam">
+            </div>
+            <div class="middle123">
+                <div class="text">Goutham</div>
+            </div>
+          <div class="caption">
+            <h3>Goutham</h3>
+             <p>Teachnical Lead</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-3 team">
+        <div class="thumbnail">
+            <div class="random1">
+            <img src="img/team/New/neil.jpeg" alt="..." class="team-img" data-toggle="modal" data-target="#neil">
+            </div>
+        <div class="middle123">
+            <div class="text">Neil walanj</div>
+        </div>
+          <div class="caption">
+            <h3>Neil walanj</h3>
+            <p>Core Lead</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-3 team">
+        <div class="thumbnail">
+            <div class="random1">
+            <img src="img/team/New/vivekac.jpg" alt="..." class="team-img" data-toggle="modal" data-target="#vivek">
+            </div>
+        <div class="middle123">
+            <div class="text">Vivek Gopalshetty</div>
+        </div>
+          <div class="caption">
+            <h3>Vivek Gopalshetty</h3>
+            <p>Finance and Sponsorship Lead</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-sm-3 team">
+        <div class="thumbnail">
+            <div class="random1">
+            <img src="img/team/New/anant.jpg" alt="..." class="team-img" data-toggle="modal" data-target="#anant">
+            </div>
+        <div class="middle123">
+            <div class="text">Anant Sah</div>
+        </div>
+          <div class="caption">
+            <h3>Anant Sah</h3>
+            <p>Project Lead</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-sm-3 team">
+        <div class="thumbnail">
+            <div class="random1">
+            <img src="img/team/New/shristi.jpeg" alt="..." class="team-img" data-toggle="modal" data-target="#shristi">
+            </div>
+        <div class="middle123">
+            <div class="text">Shristi Uniyal</div>
+        </div>
+          <div class="caption">
+            <h3>Shristi Uniyal</h3>
+            <p>Project Lead</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-sm-3 team">
+        <div class="thumbnail">
+            <div class="random1">
+            <img src="img/team/New/divya.jpg" alt="..." class="team-img" data-toggle="modal" data-target="#divya">
+            </div>
+        <div class="middle123">
+            <div class="text">divya</div>
+        </div>
+          <div class="caption">
+            <h3>Divya</h3>
+            <p>Brand Manager</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6 col-sm-3 team" align="center">
+        <div class="thumbnail">
+            <div class="random1">
+                <img src="img/team/New/roy.jpeg" alt="..." class="team-img" data-toggle="modal" data-target="#roy">
+            </div>
+        <div class="middle123">
+            <div class="text">Pratik Roy</div>
+        </div>
+          <div class="caption">
+            <h3>Pratik Roy</h3>
+            <p>External Administrative Lead</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style type="text/css">
+.team-img{ border-radius:50%; opacity:1;}
+.team-img:hover{
+	border-radius:0;
+    -ms-transform: scale(1.8); /* IE 9 */
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+    opacity: 0.9;
+}
+
+.middle123 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 69.2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.thumbnail{
+    text-align:center;
+}
+.random1{
+    display:inline-block;
+}
+.random1:hover + .middle123 {
+    opacity: 1;
+}
+
+.text {
+    background-color: #004080;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+</style>
+
+<div class="modal fade" id="vivo" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="img/vivo123.jpeg" alt="Avatar" class="avatar">
+        <h1>Dr S Vivekanandan</h1>
+        <h2>Faculty Advisor</h2>
+        <h3>International Society of Automation - VIT</h3>
+        <p>Sir has been one constant pillar of support, always there to stand by the students and help them grow with ISA-VIT. He are not only our faculty advisor, but also our mentor and eleventh board member. With you by our side, no goal will seem unattainable.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="tejas" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="img/team/New/tejas.jpg" alt="Avatar" class="avatar">
+        <h1>Tejas</h1>
+        <h2>Events and Documentation Head</h2>
+        <h3>International Society of Automation - VIT</h3>
+        <li>Maintaining relation with all officials inside VIT.</li>
+        <li>Creating new events ideas and implementing them.</li>
+        <li>Getting all the permission work done.</li>
+        <li>Taking care of all the logistics required for smooth conduct of the event.</li>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="vedant" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="img/team/New/vedant.jpg" alt="Avatar" class="avatar">
+        <h1>Vedant Singh Rajput</h1>
+        <h2>Operations Lead</h2>
+        <h3>International Society of Automation - VIT</h3>
+        <li>Developing a system of how the chapter is going to work and how regular events are going to be managed.</li>
+        <li>Keep a constant check on quality of events</li>
+        <li>Monitoring the quality and quantity of events and overlook the whole management for smooth conduction of events</li>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="gautam" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="img/team/New/gautam.jpg" alt="Avatar" class="avatar">
+        <h1>Goutham</h1>
+        <h2>Technical Head</h2>
+        <h3>International Society of Automation - VIT</h3>
+        <li>Training and teaching of the students taking technitude.</li>
+        <li>Creating and maintianing websites for sponsors and for the organization.</li>
+        <li>Monitoring the technical growth of core and checking their knowledge and skills regularly.</li>
+        <li>Online quiz on the next day of technitude based on the syllabus covered in that technitude.</li>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="sharat" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="img/team/New/Sharath.jpg" alt="Avatar" class="avatar">
+        <h1>Sharat Cherin Thomas</h1>
+        <h2>Teachnical Lead</h2>
+        <h3>International Society of Automation - VIT</h3>
+        <li>Training and teaching of the students taking technitude.</li>
+        <li>Creating and maintianing websites for sponsors and for the organization.</li>
+        <li>Monitoring the technical growth of core and checking their knowledge and skills regularly.</li>
+        <li>Online quiz on the next day of technitude based on the syllabus covered in that technitude.</li>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="neil" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="img/team/New/neil.jpeg" alt="Avatar" class="avatar">
+        <h1>Neil walanj</h1>
+        <h2>Core Lead</h2>
+        <h3>International Society of Automation - VIT</h3>
+        <li>Work as performance monitoring system.</li>
+        <li>Maintain record of all discussions during meetings</li>
+        <li>Ensure the technical growth of all core members</li>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="vivek" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="img/team/New/vivekac.jpg" alt="Avatar" class="avatar">
+        <h1>Vivek Gopalshetty</h1>
+        <h2>Finance and Sponsorship Head</h2>
+        <h3>International Society of Automation - VIT</h3>
+        <li>Responsible for all the financial dealings of the chapter.</li>
+        <li>Conduct a membership drive of all ISA members.</li>
+        <li>Full care of finance and budget of fest/event.</li>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="anant" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="img/team/New/anant.jpg" alt="Avatar" class="avatar">
+        <h1>Anant sah</h1>
+        <h2>Project Head</h2>
+        <h3>International Society of Automation - VIT</h3>
+        <li>Product Development - Atleast 1 product to be patented during the tenure</li>
+        <li>Make sure projects are provided for publicity and marketing of an event</li>
+        <li>Maintain inventory along with Program Chair and Technical Head.</li>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="shristi" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="img/team/New/shristi.jpeg" alt="Avatar" class="avatar">
+        <h1>Shristi Uniyal</h1>
+        <h2>Project Head</h2>
+        <h3>International Society of Automation - VIT</h3>
+        <li>Product Development - Atleast 1 product to be patented during the tenure</li>
+        <li>Make sure projects are provided for publicity and marketing of an event</li>
+        <li>Maintain inventory along with Program Chair and Technical Head.</li>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="modal fade" id="roy" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="img/team/New/roy.jpeg" alt="Avatar" class="avatar">
+        <h1>Pratik Roy</h1>
+        <h2>External Administration Lead</h2>
+        <h3>International Society of Automation - VIT</h3>
+        <li>Responsible for internal publicity of all events and workshops.</li>
+        <li>Developing and maintaining relations other VIT clubs and chapters.</li>
+        <li>Conduct collaborative events with other VIT clubs and chapters</li>
+        <li> Collaborative events with external colleges and companies.</li>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="modal fade" id="divya" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <img src="img/team/New/divya.jpg" alt="Avatar" class="avatar">
+          <h1>Divya</h1>
+          <h2>Brand Manager</h2>
+          <h3>International Society of Automation - VIT</h3>
+          <li>Keep Facebook, Twitter and Instagram handles active by regular sharing.</li>
+          <li>Keeping good relation with external colleges.</li>
+          <li>Systematic processing and planning of promotional events.</li>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+  </div>
+  </div>
+
+
+
+<!-- Contact Section -->
+<div id="social-section" align="center" style="margin-top:-50px;">
+  <div class="container">
+    <div class="social">
+      <ul>
+        <li><a href="https://www.facebook.com/isavitchapter/?ref=page_homepage_panel"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/isa_vit_/?hl=en"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+    </div>
+    <span color="" style="font-weight:800;">Contact us:  9785891201, 7530000768 <br>Email: isa@vit.ac.in, isavitss@gmail.com</span>
+  </div>
+</div>
+
+<!-- Alumni Section -->
+<div class="modal fade" id="alumniForum1" role="dialog" ng-controller="alumni">
+  <div class="modal-dialog">
+    <div class="modal-content" style="width:100%">
+      <div class="modal-header">
+        <h4>Welcome to the Alumni Forum ISA-VIT Student Section
+        <button type="button" class="close" data-dismiss="modal">&times;</button></h4>
+      </div>
+      <div class="modal-body">
+        <div ng-hide="main">
+          <div class="row" style="height:180px">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" ng-click="viewprofile()" style="background-color:DodgerBlue; height:180px">
+              <h2 style="padding:25% 12%;">View Profiles</h2>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" ng-click="addnew()" style="background-color:MediumSeaGreen;height:180px">
+              <h2 style="padding:25% 22%;">Add New</h2>
+            </div>
+          </div>
+        </div>
+        <div ng-show="add" ng-init="addDetails">
+          <span ng-click="addnew()"><img src="img/25184.svg" alt="back" style="width:20px">Press to go back<br><br></span>
+
+          <label><b>Name</b></label><br>
+          <input type="text" placeholder="Please enter your Name" ng-model="name" ng-required="truedat"><br>
+
+          <label><b>Mobile Number</b></label><br>
+          <input type="text" placeholder="Please enter your Contact Number" ng-model="mobile" type="number" ng-required="truedat"><br>
+
+          <label><b>Email ID</b></label><br>
+          <input type="text" placeholder="Please enter your Email Address" ng-model="email" ng-required="truedat"><br>
+
+          <label><b>Present Job</b></label><br>
+          <input type="text" placeholder="Enter your current job" ng-model="job" ng-required="truedat"><br>
+
+          <label><b>Current City</b></label><br>
+          <input type="text" placeholder="Enter your present city" ng-model="city" ng-required="truedat"><br>
+
+          <label><b>Passing Year from VIT</b></label><br>
+          <select class="form-control" ng-model="year" ng-required="truedat">
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+          </select><br>
+
+          <label><b>Recent Photograph</b></label><br><br>
+          <input type="file" file-input="files" ng-required="truedat"><br><br>
+
+          <button type="submit" class="btn btn-success btn-lg" ng-click="addMember()" style="border-radius: 10px;">Add Alumni</button>
+        </div>
+
+        <div ng-show="view">
+          <span ng-click="viewprofile()"><img src="img/25184.svg" alt="back" style="width:20px">Press to go back</span>
+          <br><br>
+          <input type="text" placeholder="Search Members" ng-model="searchtext.name">
+          <br><br>
+          <h3>*Click to view complete profile</h3>
+          <table class="table table-hover">
+            <thead>
+              <th ng-click="sortItem('name')">Name</th>
+              <th ng-click="sortItem('city')">City</th>
+              <th ng-click="sortItem('year')">Year</th>
+            </thead>
+            <tbody>
+              <tr ng-repeat="det in Details | orderBy:sortby:reverseSort | filter:searchtext">
+                <td ng-click="detailView(det.name,det.mobile,det.email,det.job,det.city,det.year,det.img_name)">{{det.name}}</td>
+                <td ng-click="detailView(det.name,det.mobile,det.email,det.job,det.city,det.year,det.img_name)">{{det.city}}</td>
+                <td ng-click="detailView(det.name,det.mobile,det.email,det.job,det.city,det.year,det.img_name)">{{det.year}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div ng-show=data id="alumni">
+          <span ng-click="antiDetails()"><img src="img/25184.svg" alt="back" style="width:20px">Press to go back</span>
+          <br><br>
+          <img src="upload/{{viewImage}}" alt="" class="alumni-img">
+          <h1>{{viewName}}</h1><br>
+          <label><b>Contact me at: </b></label><br>
+          <h3 ng-show=contact >{{viewMobile}} , {{viewEmail}}</h3><h3 ng-hide=contact >######, ##########</h3>
+          <button type="button" class="btn btn-alumni" ng-click="alumni_contact()" ng-hide=contact>Show Contact Details</button><br>
+          <label><b>What I do nowadays: </b></label><br>
+          <h3>{{viewJob}}</h3><br>
+          <label><b>Where can you find me: </b></label><br>
+          <h3>{{viewCity}}</h3>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
